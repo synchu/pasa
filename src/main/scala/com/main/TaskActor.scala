@@ -1,10 +1,10 @@
 package com.main
 
-import scala.collection.mutable.ListBuffer
-
 import akka.actor._
 import com.task.{Resource, TaskDef}
 import org.joda.time.DateTime
+
+import scala.collection.mutable.ListBuffer
 
 /**
   * Created by nnyagolov on 25/12/2015.
@@ -12,15 +12,14 @@ import org.joda.time.DateTime
 
 sealed trait TaskState
 
-final case object Unassigned extends TaskState
+case object Unassigned extends TaskState
+case object Assigned extends TaskState
 
-final case object Assigned extends TaskState
+case object Working extends TaskState
 
-final case object Working extends TaskState
+case object Paused extends TaskState
 
-final case object Paused extends TaskState
-
-final case object Error extends TaskState
+case object Error extends TaskState
 
 sealed trait TaskMessage
 
@@ -48,12 +47,12 @@ class TaskActor(taskDef: TaskDef) extends Actor with FSM[TaskState, TaskDef] wit
   startWith(Unassigned, taskDef)
 
   when(Unassigned) {
-    case Event(Unassign, curDef) => {
+    case Event(Unassign, curDef) =>
       goto(Error) using curDef
-    }
-    case Event(Assign, _) => {
+
+    case Event(Assign, _) =>
       goto(Assigned) replying "about to assign"
-    }
+
     case Event(AssignTo(to: Resource, date: DateTime), _) => {
 
       log.info(s"Task data when unassigned was ${stateData}")
@@ -93,14 +92,14 @@ class TaskActor(taskDef: TaskDef) extends Actor with FSM[TaskState, TaskDef] wit
   }
 
   when(Paused) {
-    case Event(Assign, _) => {
+    case Event(Assign, _) =>
       self ! Unassign
 
       goto(Assigned) replying "reassigning"
-    }
-    case Event(Unassign, _) => {
+
+    case Event(Unassign, _) =>
       goto(Unassigned) replying "about to unassign, although paused"
-    }
+
   }
 
   onTransition{

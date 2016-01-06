@@ -1,13 +1,8 @@
 package com.main
 
 
-import akka.actor.ActorSystem
-import akka.actor._
+import akka.actor.{ActorSystem, _}
 import com.task.Products
-import scala.concurrent.duration._
-import scala.concurrent.Await
-
-import com.server._
 
 
 object ApplicationMain extends App {

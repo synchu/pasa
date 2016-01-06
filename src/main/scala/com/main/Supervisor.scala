@@ -3,14 +3,13 @@ package com.main
 import java.util.UUID
 
 import akka.actor._
+import akka.pattern.{ask, gracefulStop}
 import com.task.{Products, Resource, TaskDef}
-import akka.pattern.gracefulStop
 import org.joda.time.DateTime
-import akka.pattern.ask
 
 import scala.collection.mutable.ListBuffer
-import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
+import scala.concurrent.{Await, Future}
 
 class Supervisor extends Actor with ActorLogging {
 

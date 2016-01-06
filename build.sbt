@@ -1,5 +1,5 @@
 
-//enablePlugins(JavaAppPackaging)
+
 
 name := """PASA - Planning Automation Software Agents"""
 
@@ -13,7 +13,7 @@ herokuAppName in Compile := "pacific-thicket-3407"
 
 herokuFatJar in Compile := Some((assemblyOutputPath in assembly).value)
 
-
+enablePlugins(JavaAppPackaging)
 
 val akkaVersion = "2.4.1"//"2.3.12"
 val akkaStreamV = "2.0.1"

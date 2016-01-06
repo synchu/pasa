@@ -1,39 +1,25 @@
 package com.server
 
-import java.io.IOException
-
 import akka.actor._
 import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.Http
-import akka.http.scaladsl.client.RequestBuilding
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
-import akka.http.scaladsl.marshalling.ToResponseMarshallable
 import akka.http.scaladsl.marshalling.ToResponseMarshallable.apply
 import akka.http.scaladsl.model.StatusCodes._
-import akka.http.scaladsl.model.Uri.Path
 import akka.http.scaladsl.model._
-import akka.http.scaladsl.model.headers.CacheDirectives.`no-cache`
-import akka.http.scaladsl.model.headers.`Access-Control-Allow-Origin`.*
-import akka.http.scaladsl.model.headers.{`Access-Control-Allow-Origin`, `Cache-Control`}
 import akka.http.scaladsl.server.Directives._
-import akka.http.scaladsl.server.PathMatchers.Segment
-import akka.http.scaladsl.unmarshalling.Unmarshal
+import akka.pattern.ask
 import akka.stream.{ActorMaterializer, Materializer}
-import akka.stream.scaladsl.{Sink, Source, Flow}
 import akka.util.Timeout
 import com.main.{ApplicationMain, Supervisor}
 import com.task._
-import com.typesafe.config.{ConfigFactory, Config}
+import com.typesafe.config.{Config, ConfigFactory}
 import org.joda.time.DateTime
-import org.joda.time.format.DateTimeFormatter
 import spray.json._
-import spray.json.DefaultJsonProtocol._
-import akka.pattern.ask
+
 import scala.collection.mutable.ListBuffer
 import scala.concurrent.duration._
-
-import scala.concurrent.{Await, Future, ExecutionContextExecutor}
-import scala.util.Failure
+import scala.concurrent.{ExecutionContextExecutor, Future}
 
 /**
   * Created by nnyagolov on 2/1/2016.
