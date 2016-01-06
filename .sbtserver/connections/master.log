@@ -1,0 +1,7 @@
+New log file opened at Fri Jan 01 17:46:16 EET 2016 by 868@BG7SNRASNNYAGO3
+Taking next connection to: 49670
+New client attempting to connect on port: 49671-49670
+  Address = /192.168.88.28:49670
+This client on port 49671 has uuid cc619cfe-aad5-43db-afd5-277c03ea13b0 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-cc619cfe-aad5-43db-afd5-277c03ea13b0
+Taking next connection to: 49670

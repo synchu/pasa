@@ -1,0 +1,24 @@
+gen-idea
+idea
+project
+gen-idea
+idea
+compile
+gen-idea
+ui
+exit
+clean
+compile
+eclipse
+exit
+dist
+compile
+dist
+package
+dist
+exit
+stage deployHeroku
+stage
+deployHeroku
+clean
+compile
