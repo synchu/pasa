@@ -11,6 +11,8 @@ dependencyOverrides += "org.scala-lang" % "scala-compiler" % scalaVersion.value
 
 herokuAppName in Compile := "pacific-thicket-3407"
 
+assemblyJarName in assembly := "PASA.jar"
+
 herokuFatJar in Compile := Some((assemblyOutputPath in assembly).value)
 
 enablePlugins(JavaAppPackaging)
