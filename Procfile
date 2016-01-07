@@ -1,1 +1,1 @@
-web: java -jar target/scala-2.11/PASA.jar -Dhttp.port=${PORT}
+web: java -jar target/scala-2.11/PASA.jar -Dhttp.port=9999
