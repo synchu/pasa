@@ -1,1 +1,1 @@
-web: java -jar target/scala-2.11/PASA.jar $PORT
+web: java -jar target/scala-2.11/PASA.jar
