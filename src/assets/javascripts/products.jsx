@@ -67,49 +67,75 @@ var ProductLine = React.createClass({
 
 
 var ProductForm = React.createClass({
-    handleSubmit: function (e) {
-        e.preventDefault();
 
-        var formData = $("#ProductForm").serialize();
+        serializeObject: function (f) {
+            var o = {};
+            var a = f.serializeArray();
+            $.each(a, function () {
+                if (o[this.name]) {
+                    if (!o[this.name].push) {
+                        o[this.name] = [o[this.name]];
+                    }
+                    o[this.name].push(this.value || '');
+                } else {
+                    o[this.name] = this.value || '';
+                }
+            });
+            return o;
+        },
+
+        handleSubmit: function (e) {
+            e.preventDefault();
+
+            var formData = $("#ProductForm").serialize();
+            //debug
+            console.log(formData);
+            //debug
 
 
-        var saveUrl = "http://localhost:9999/products/save";
-        $.ajax({
-            url: saveUrl,
-            method: 'POST',
-            dataType: 'json',
-            data: formData,
-            cache: false,
-            success: function (data) {
-                console.log(data)
-            }.bind(this),
-            error: function (xhr, status, err) {
-                console.error(saveUrl, status, err.toString());
-            }.bind(this)
-        });
+            var saveUrl = 'http://localhost:9999/products/save';
+            $.ajax({
+                url: 'http://localhost:9999/products/save',
+                type: 'POST',
+                dataType: 'json',
+                data: formData,
+                cache: false,
+                crossDomain: true,
+                crossOrigin: true,
+                success: function (data) {
+                    console.log("Post succeeded" + data)
+                }.bind(this),
+                error: function (xhr, status, err) {
+                    console.error(saveUrl, status, err.toString());
+                }.bind(this)
+            });
 
-        // clears the form fields
-        React.findDOMNode(this.refs.ProductName).value = '';
-        return;
-    },
-    render: function () {
-        return (
-            <div className="row">
-                <form id="ProductForm" onSubmit={this.handleSubmit}>
-                    <div className="col-xs-3">
-                        <div className="form-group">
-                            <input type="text" name="ProductName" required="required" ref="type" placeholder="Type"
-                                   className="form-control"/>
+            // clears the form fields
+            this.refs.productName.value = '';
+            return;
+        }
+        ,
+        render: function () {
+            return (
+                <div className="row">
+                    <form id="ProductForm" onSubmit={this.handleSubmit}>
+                        <div className="col-xs-3">
+                            <div className="form-group">
+                                <input type="hidden" name="productId" value="0"/>
+                                <input type="text" name="productName" ref={(ref) => this.productName = ref} required="required" ref="type"
+                                       placeholder="Add product name"
+                                       className="form-control"/>
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-xs-3">
-                        <input type="submit" className="btn btn-block btn-info" value="Add"/>
-                    </div>
-                </form>
-            </div>
-        );
-    }
-});
+                        <div className="col-xs-3">
+                            <input type="submit" className="btn btn-block btn-info" value="Add"/>
+                        </div>
+                    </form>
+                </div>
+            );
+        }
+    })
+    ;
 
 ReactDOM.render(<ProductDetails url="http://localhost:9999/products/callback"
-                             pollInterval={2000}/>, document.getElementById('content'));
+                                pollInterval={20000}/>, document.getElementById('content'));

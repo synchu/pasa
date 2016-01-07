@@ -8,18 +8,21 @@ import akka.http.scaladsl.marshalling.ToResponseMarshallable.apply
 import akka.http.scaladsl.model.StatusCodes._
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
+import akka.http.scaladsl.unmarshalling.Unmarshal
 import akka.pattern.ask
 import akka.stream.{ActorMaterializer, Materializer}
-import akka.util.Timeout
+import akka.util.{ByteString, Timeout}
 import com.main.{ApplicationMain, Supervisor}
 import com.task._
 import com.typesafe.config.{Config, ConfigFactory}
 import org.joda.time.DateTime
 import spray.json._
+import DefaultJsonProtocol._
 
 import scala.collection.mutable.ListBuffer
 import scala.concurrent.duration._
 import scala.concurrent.{ExecutionContextExecutor, Future}
+import scala.util.Failure
 
 /**
   * Created by nnyagolov on 2/1/2016.
@@ -54,7 +57,6 @@ trait Protocols extends DefaultJsonProtocol with SprayJsonSupport {
 
   implicit val projectDataFormat = jsonFormat2(ProjectDef.apply)
   implicit val qualificationsDataFormat = jsonFormat2(Qualifications.apply)
-
   implicit val productsDataFormat = jsonFormat2(Products.apply)
   implicit val tasksDataFormat = jsonFormat10(TaskDef.apply)
 
@@ -113,7 +115,23 @@ trait Service extends Protocols {
                   .withEntity(convertToString(productsFutureList, false, productsFutureList.headOption)))
               }
             }
-          }
+          } ~
+            (post & path("save")) {
+              /*entity(as[String]) {
+                newProduct =>
+                  logger.info(newProduct.toJson.toString)
+                  complete(HttpResponse(OK))
+                */
+              formFields('productName) { (productName) => {
+                val saved = DataMgmt.saveNewProduct(Products(0, productName))
+                complete(HttpResponse(OK)
+                  .withHeaders(akka.http.scaladsl.model.headers.`Access-Control-Allow-Origin`.*)
+                  .withEntity(HttpEntity.Strict(MediaTypes.`application/json`, data = ByteString.fromString("done")))
+                )
+              }
+
+              }
+            }
         }
     }
   }

@@ -80,20 +80,41 @@ var ProductLine = React.createClass({
 var ProductForm = React.createClass({
     displayName: "ProductForm",
 
+    serializeObject: function serializeObject(f) {
+        var o = {};
+        var a = f.serializeArray();
+        $.each(a, function () {
+            if (o[this.name]) {
+                if (!o[this.name].push) {
+                    o[this.name] = [o[this.name]];
+                }
+                o[this.name].push(this.value || '');
+            } else {
+                o[this.name] = this.value || '';
+            }
+        });
+        return o;
+    },
+
     handleSubmit: function handleSubmit(e) {
         e.preventDefault();
 
         var formData = $("#ProductForm").serialize();
+        //debug
+        console.log(formData);
+        //debug
 
-        var saveUrl = "http://localhost:9999/products/save";
+        var saveUrl = 'http://localhost:9999/products/save';
         $.ajax({
-            url: saveUrl,
-            method: 'POST',
+            url: 'http://localhost:9999/products/save',
+            type: 'POST',
             dataType: 'json',
             data: formData,
             cache: false,
+            crossDomain: true,
+            crossOrigin: true,
             success: (function (data) {
-                console.log(data);
+                console.log("Post succeeded" + data);
             }).bind(this),
             error: (function (xhr, status, err) {
                 console.error(saveUrl, status, err.toString());
@@ -101,10 +122,13 @@ var ProductForm = React.createClass({
         });
 
         // clears the form fields
-        React.findDOMNode(this.refs.ProductName).value = '';
+        this.refs.productName.value = '';
         return;
     },
+
     render: function render() {
+        var _this = this;
+
         return React.createElement(
             "div",
             { className: "row" },
@@ -117,7 +141,11 @@ var ProductForm = React.createClass({
                     React.createElement(
                         "div",
                         { className: "form-group" },
-                        React.createElement("input", { type: "text", name: "ProductName", required: "required", ref: "type", placeholder: "Type",
+                        React.createElement("input", { type: "hidden", name: "productId", value: "0" }),
+                        React.createElement("input", { type: "text", name: "productName", ref: function ref(_ref) {
+                                return _this.productName = _ref;
+                            }, required: "required", ref: "type",
+                            placeholder: "Add product name",
                             className: "form-control" })
                     )
                 ),
@@ -132,6 +160,6 @@ var ProductForm = React.createClass({
 });
 
 ReactDOM.render(React.createElement(ProductDetails, { url: "http://localhost:9999/products/callback",
-    pollInterval: 2000 }), document.getElementById('content'));
+    pollInterval: 20000 }), document.getElementById('content'));
 
 //# sourceMappingURL=products-compiled.js.map

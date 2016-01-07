@@ -212,6 +212,14 @@ object DataMgmt {
   def getProducts()(implicit ec: ExecutionContext): Future[List[Products]] = {
     Future(Db.query[Products].fetch().map( f => Products(f.productId, f.productName)).toList)
   }
+
+  def saveNewProduct(newProduct: Products)(implicit ec: ExecutionContext): Future[Products] = {
+    val maxProductId: Int = Db.query[Products].order("productId", true).fetchOne().map(f => f.productId)  match {
+      case Some(a) => a
+      case None => 0
+    }
+    Future( Db.save(Products(maxProductId + 1, newProduct.productName )))
+  }
 }
 
 object TaskDef {
