@@ -17,7 +17,7 @@
 
   // RequireJS
   } else if (typeof define === "function" && define.amd) {
-    define(['react'], f);
+    define(['../../../../../../bower_components/react/react'], f);
 
   // <script>
   } else {

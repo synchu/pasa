@@ -1,7 +1,18 @@
+var React = require('react');
+var ReactDOM = require('react-dom');
+var Select = require('react-select');
+
+const testoptions = [
+    {value: 'one', label: 'One'},
+    {value: 'two', label: 'Two'}
+];
+
 var PASADetails = React.createClass({
     returnJasonCallback: function () {
         return;
     },
+
+
     loadPASADetails: function () {
         $.ajax({
             crossDomain: true,
@@ -10,7 +21,6 @@ var PASADetails = React.createClass({
             url: this.props.url,
             dataType: 'json',
             cache: false,
-//            jsonpCallback: this.returnJasonCallback(),
             success: function (data) {
                 this.setState({data: data});
             }.bind(this),
@@ -19,14 +29,23 @@ var PASADetails = React.createClass({
             }.bind(this)
         });
 
-    },
+    }
+    ,
     getInitialState: function () {
-        return {data: []};
-    },
+        return {
+            data: []
+
+        };
+    }
+    ,
     componentDidMount: function () {
         this.loadPASADetails();
+        this.setState({options: this.state.options, data: this.state.data, value: this.state.value}, function () {
+            console.log(this.state);
+        });
         setInterval(this.loadPASADetails, this.props.pollInterval);
-    },
+    }
+    ,
     render: function () {
         return (
             <div className="container">
@@ -43,7 +62,8 @@ var PASALines = React.createClass({
     render: function () {
         var PASANodes = this.props.data.map(function (pasaline) {
             return (
-                <PASALine key={pasaline.TaskUUID} TaskName={pasaline.TaskName} resourceName={pasaline.Responsible.resourceName}
+                <PASALine key={pasaline.TaskUUID} TaskName={pasaline.TaskName}
+                          resourceName={pasaline.Responsible.resourceName}
                           TaskEnd={pasaline.TaskEnd}/>
             );
         });
@@ -70,13 +90,45 @@ var PASALine = React.createClass({
 
 
 var PASAForm = React.createClass({
+    transformProductSelectJSON: function (json) {
+        var response = new Array();
+
+        json.forEach(function (entry) {
+            var val = {productId: entry.productId, productName: entry.productName};
+            response.push({value: val, label: entry.productName})
+        });
+        return response;
+    }
+    ,
+    loadProducts: function () {
+        return fetch(`http://localhost:9999/products/callback`)
+            .then((response) => {
+                return response.json();
+            }).then((json) => {
+                var transformedResponse = this.transformProductSelectJSON(json);
+                console.log(transformedResponse);
+                return {options: transformedResponse};
+            });
+    }
+    ,
+    getInitialState: function () {
+        return {
+            options: []
+        };
+    }
+    ,
+    logChange: function (val) {
+        console.log('selected: ' + val);
+        this.setState({value: val});
+    }
+    ,
     handleSubmit: function (e) {
         e.preventDefault();
 
         var formData = $("#PASAForm").serialize();
 
 
-        var saveUrl = "http://localhost:9000/PASA/save";
+        var saveUrl = "http://localhost:9999/tasks/save";
         $.ajax({
             url: saveUrl,
             method: 'POST',
@@ -92,43 +144,49 @@ var PASAForm = React.createClass({
         });
 
         // clears the form fields
-        React.findDOMNode(this.refs.type).value = '';
-        React.findDOMNode(this.refs.description).value = '';
-        React.findDOMNode(this.refs.data).value = '';
+        this.setState({taskDescription: "", value: "", desiredDate: new Date()})
         return;
     },
+
     render: function () {
         return (
             <div className="row">
                 <form id="PASAForm" onSubmit={this.handleSubmit}>
                     <div className="col-xs-3">
                         <div className="form-group">
-                            <input type="text" name="type" required="required" ref="type" placeholder="Type"
-                                   className="form-control"/>
+                            <Select.Async id="productName" multi={true} name="productName" ref="productName" required
+                                          value={this.state.value}
+                                          loadOptions={this.loadProducts}
+                                          onChange={this.logChange}
+                            />
                         </div>
                     </div>
-                    <div className="col-xs-3">
+                    <div className="col-xs-5">
                         <div className="form-group">
-                            <input type="text" name="description" required="required" ref="description"
-                                   placeholder="description"
-                                   className="form-control"/>
+                            <input type="text" id="taskDescription" name="taskDescription" required
+                                   ref="taskDescription"
+                                   placeholder="Task description"
+                                   className="form-control"
+                                   value={this.state.taskDescription}/>
                         </div>
                     </div>
-                    <div className="col-xs-3">
+                    <div className="col-xs-2">
                         <div className="form-group">
-                            <input type="text" name="data" required="required" ref="data"
-                                   placeholder="data" className="form-control"/>
+                            <input type="datetime" name="desiredDate" required ref="desiredDate"
+                                   placeholder="Desired date" className="form-control" data-provide="datepicker"
+                                   value={this.state.desiredDate}/>
                             <span className="input-icon fui-check-inverted"></span>
                         </div>
                     </div>
-                    <div className="col-xs-3">
+                    <div className="col-xs-2">
                         <input type="submit" className="btn btn-block btn-info" value="Add"/>
                     </div>
                 </form>
             </div>
-        );
+        )
+            ;
     }
 });
 
 ReactDOM.render(<PASADetails url="http://localhost:9999/tasks/callback"
-                             pollInterval={2000}/>, document.getElementById('content'));
+                             pollInterval={20000}/>, document.getElementById('content'));

@@ -1,51 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18215595-1647-48a4-b5ce-60e6c2aeb182" name="Default" comment="htmls">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator24$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator25$1.class" afterPath="" />
+    <list default="true" id="18215595-1647-48a4-b5ce-60e6c2aeb182" name="Default" comment="Add task adding features">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/DoJo_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/NodeJSCoreModules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/react_dom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/react_select.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/require.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/react-select.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$15$$anonfun$apply$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$9$$anonfun$apply$10$$anonfun$apply$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$9$$anonfun$apply$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$9.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/js/npm.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/js/npm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/jquery-1.11.3.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/jquery-1.11.3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/README.md" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-dom-server.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom-server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-dom-server.min.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom-server.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-dom.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-dom.min.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-with-addons.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-with-addons.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-with-addons.min.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-with-addons.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react.min.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/README.md" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-click-counter/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-click-counter/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-commonjs/README.md" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-commonjs/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-commonjs/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-commonjs/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-commonjs/index.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-commonjs/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-commonjs/package.json" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-commonjs/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx-external/example.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx-precompile/example.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx-external/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx-external/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx-harmony/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx-harmony/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx-precompile/example.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx-external/example.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx-precompile/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx-precompile/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-bootstrap/css/example.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-bootstrap/css/example.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-bootstrap/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-bootstrap/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-bootstrap/js/app.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-bootstrap/js/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-mobile/README.md" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-mobile/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-mobile/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-mobile/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-mobile/js/app.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-mobile/js/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/quadratic/example.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/quadratic/example.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/quadratic/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/quadratic/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/shared/css/base.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/shared/css/base.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/shared/thirdparty/webcomponents.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/shared/thirdparty/webcomponents.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/transitions/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/transitions/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/transitions/transition.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/transitions/transition.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/webcomponents/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/webcomponents/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/DumpTasksRequest$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/DumpTasksRequest$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/DumpTasksRequest.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/DumpTasksRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/ApplicationMain$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/ApplicationMain$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/ApplicationMain.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/ApplicationMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/HttpServer$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/HttpServer$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$JodaDateTimeFormat$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$JodaDateTimeFormat$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$ResourceDataFormat$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$ResourceDataFormat$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/HttpServer.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/HttpServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6$$anonfun$apply$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6$$anonfun$apply$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/DataMgmt$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/DataMgmt$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/DataMgmt.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/DataMgmt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$anon$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator26$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator26$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator27$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator27$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator28$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator28$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator29$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator29$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator30$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator30$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator31$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator31$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator32$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$$typecreator32$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Db$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/TaskDef$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/TaskDef$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Products$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Products$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Products.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Products.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/pasa3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/pasa3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/pasa3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/pasa3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-compile-internal.xml" />
@@ -61,14 +118,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-sources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/products.html" afterPath="$PROJECT_DIR$/public/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/app-compiled.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/app-compiled.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/app-compiled.js.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/app-compiled.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/app.jsx" afterPath="$PROJECT_DIR$/src/assets/javascripts/app.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/products-compiled.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/products-compiled.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/products-compiled.js.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/products-compiled.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/products.jsx" afterPath="$PROJECT_DIR$/src/assets/javascripts/products.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/main/ApplicationMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/main/ApplicationMain.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/task/DataMgmt.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/task/DataMgmt.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/pasa-planning-automation-software-agents/pasa-planning-automation-software-agents_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/pasa-planning-automation-software-agents/pasa-planning-automation-software-agents_2.11/1.0/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/pasa-planning-automation-software-agents/pasa-planning-automation-software-agents_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/pasa-planning-automation-software-agents/pasa-planning-automation-software-agents_2.11/1.0/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-compile-internal.xml" />
@@ -86,6 +146,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
     </list>
     <ignored path="PASA - Planning Automation Software Agents.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -153,14 +214,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HttpServer.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
-              <folding>
-                <element signature="e#20#39#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/javascripts/app.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.793103">
+              <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,56 +237,40 @@
       <file leaf-file-name="products.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/javascripts/products.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.724138">
-              <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/products.html">
+      <file leaf-file-name="HttpServer.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.676311">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.083333336">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products-compiled.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/javascripts/products-compiled.js">
+      <file leaf-file-name="Supervisor.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/Supervisor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.068966">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskActor.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/TaskActor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding>
-                <marker date="1452161071147" expanded="true" signature="54:1421" placeholder="{&quot;displayName&quot;: &quot;ProductDetails&quot;...}" />
-                <marker date="1452161071147" expanded="true" signature="148:171" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="227:769" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="244:761" placeholder="{&quot;crossDomain&quot;: true...}" />
-                <marker date="1452161071147" expanded="true" signature="529:591" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="653:739" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="819:855" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="909:1022" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="1054:1419" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="1462:1871" placeholder="{&quot;displayName&quot;: &quot;ProductLines&quot;...}" />
-                <marker date="1452161071147" expanded="true" signature="1528:1869" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="1600:1734" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="1911:2205" placeholder="{&quot;displayName&quot;: &quot;ProductLine&quot;...}" />
-                <marker date="1452161071147" expanded="true" signature="1976:2203" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="2245:4910" placeholder="{&quot;displayName&quot;: &quot;ProductForm&quot;...}" />
-                <marker date="1452161071147" expanded="true" signature="2329:2734" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="2417:2708" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="2449:2628" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="2491:2561" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="2634:2698" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="2780:3606" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="3005:3505" placeholder="{&quot;method&quot;: 'POST'...}" />
-                <marker date="1452161071147" expanded="true" signature="3273:3342" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="3404:3483" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="3639:4908" placeholder="{...}" />
-                <marker date="1452161071147" expanded="true" signature="4433:4586" placeholder="{&quot;name&quot;: &quot;productName&quot;...}" />
-                <marker date="1452161071147" expanded="true" signature="4966:5041" placeholder="{&quot;url&quot;: &quot;http://localhost:9999/products/callback&quot;...}" />
+                <element signature="e#18#37#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -230,11 +283,17 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/public" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="synchu@synchu.com" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -250,33 +309,41 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/main/Capacity.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/main/Resourcer.scala" />
         <option value="$PROJECT_DIR$/src/assets/javascripts/another.jsx" />
-        <option value="$PROJECT_DIR$/src/assets/javascripts/.babelrc" />
         <option value="$PROJECT_DIR$/src/app.conf" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/main/ApplicationMain.scala" />
         <option value="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx/index.html" />
-        <option value="$PROJECT_DIR$/src/assets/javascripts/app-compiled.js" />
-        <option value="$PROJECT_DIR$/src/assets/javascripts/app.jsx" />
         <option value="$PROJECT_DIR$/src/main/scala/com/main/Supervisor.scala" />
         <option value="$PROJECT_DIR$/public/stylesheets/pasa.csss.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/pasa.css" />
         <option value="$PROJECT_DIR$/public/projects.html" />
         <option value="$PROJECT_DIR$/src/assets/javascripts/projects.jsx" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/products.html" />
         <option value="$PROJECT_DIR$/project/assembly.sbt" />
         <option value="$PROJECT_DIR$/project/heroku.sbt" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/src/test/scala/com/example/PingPongActorSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/main/TaskActor.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/scala/com/task/DataMgmt.scala" />
         <option value="$PROJECT_DIR$/src/assets/javascripts/products-compiled.js" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/main/ApplicationMain.scala" />
         <option value="$PROJECT_DIR$/src/assets/javascripts/products.jsx" />
+        <option value="$PROJECT_DIR$/src/assets/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/src/assets/javascripts/.babelrc" />
+        <option value="$PROJECT_DIR$/src/assets/javascripts/app-compiled.js" />
+        <option value="$PROJECT_DIR$/src/assets/main.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/assets/javascripts/bundle.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/assets/javascripts/app.jsx" />
         <option value="$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path>C:\Users\nnyagolov\AppData\Roaming\npm\bower.cmd</exe-path>
+    <config-path>C:\Users\nnyagolov\PASA3\bower.json</config-path>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -290,11 +357,57 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="NamedScopeManager">
+    <scope name="Asset JSXs" pattern="jsx" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -321,6 +434,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PASA - Planning Automation Software Agents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -396,8 +521,34 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
+              <option name="myItemId" value="PASA - Planning Automation Software Agents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PASA3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,6 +575,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,8 +643,30 @@
               <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="products.jsx" />
+              <option name="myItemId" value="PASA - Planning Automation Software Agents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PASA3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app.jsx" />
               <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,6 +691,10 @@
               <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -525,20 +706,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-0.14.5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="PASA - Planning Automation Software Agents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PASA3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-3.3.6-dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -559,12 +774,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="C:/utils/nodejs/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/.bin/webpack.cmd" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\utils\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="editor.config.accepted" value="true" />
   </component>
   <component name="Push.Settings">
     <excluded-roots>
@@ -572,12 +788,17 @@
     </excluded-roots>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\nnyagolov\PASA3\src\main\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nnyagolov\PASA3\public\stylesheets" />
+      <recent name="C:\Users\nnyagolov\PASA3\public\javascript" />
+      <recent name="C:\Users\nnyagolov\PASA3\public" />
       <recent name="C:\Users\nnyagolov\PASA3\public\images" />
       <recent name="C:\Users\nnyagolov\PASA3\src\assets\vendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nnyagolov\PASA3\src\assets\javascripts" />
+      <recent name="C:\Users\nnyagolov\PASA3\src\assets" />
+      <recent name="C:\Users\nnyagolov\PASA3\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ApplicationMain">
@@ -1082,7 +1303,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1452150108070" />
+    <option name="lastUpdateTimestamp" value="1452528639673" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1156,7 +1377,15 @@
       <workItem from="1451995154388" duration="15087000" />
       <workItem from="1452078342325" duration="10211000" />
       <workItem from="1452093657003" duration="2875000" />
-      <workItem from="1452150019365" duration="10545000" />
+      <workItem from="1452150019365" duration="11229000" />
+      <workItem from="1452170420976" duration="16501000" />
+      <workItem from="1452246982932" duration="8441000" />
+      <workItem from="1452262656523" duration="1883000" />
+      <workItem from="1452264571249" duration="1381000" />
+      <workItem from="1452265976467" duration="4276000" />
+      <workItem from="1452366279697" duration="11322000" />
+      <workItem from="1452437173561" duration="12250000" />
+      <workItem from="1452528596680" duration="3943000" />
     </task>
     <task id="LOCAL-00001" summary="htmls">
       <created>1452086367809</created>
@@ -1170,11 +1399,41 @@
       <option name="project" value="LOCAL" />
       <updated>1452086407180</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="htmls">
+      <created>1452169346590</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1452169346590</updated>
+    </task>
+    <task id="LOCAL-00004" summary="procfile change and jar name change">
+      <created>1452169702741</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1452169702741</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Listening port change">
+      <created>1452170504154</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1452170504154</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Listening port change">
+      <created>1452171420495</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1452171420495</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Remove $PORT var">
+      <created>1452172301473</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1452172301473</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196683000" />
+    <option name="totallyTimeSpent" value="257364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1191,37 +1450,71 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259177" sideWeight="0.48827294" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2580645" sideWeight="0.48560768" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259177" sideWeight="0.48400852" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25583982" sideWeight="0.48347548" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3971079" sideWeight="0.5079957" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4116829" sideWeight="0.51349616" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32480535" sideWeight="0.48454157" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23248054" sideWeight="0.48650387" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28144988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3971079" sideWeight="0.49200428" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3971079" sideWeight="0.49200428" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27919912" sideWeight="0.48027718" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4116829" sideWeight="0.51349616" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28144988" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3971079" sideWeight="0.49200428" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259177" sideWeight="0.48400852" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2580645" sideWeight="0.48347548" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28031147" sideWeight="0.48027718" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4116829" sideWeight="0.48650387" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20501286" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1236,17 +1529,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="htmls" />
-    <option name="LAST_COMMIT_MESSAGE" value="htmls" />
+    <MESSAGE value="procfile change and jar name change" />
+    <MESSAGE value="Listening port change" />
+    <MESSAGE value="Remove $PORT var" />
+    <MESSAGE value="Add task adding features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add task adding features" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/com/task/DataMgmt.scala</url>
           <line>216</line>
@@ -1257,33 +1548,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala</url>
-          <line>120</line>
+          <line>108</line>
           <properties />
-          <option name="timeStamp" value="49" />
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala</url>
-          <line>124</line>
-          <properties>
-            <option name="lambda-ordinal" value="0" />
-          </properties>
-          <option name="timeStamp" value="51" />
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/javascripts/products.jsx</url>
-          <line>89</line>
+          <line>84</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/javascripts/products-compiled.js</url>
-          <line>106</line>
+          <line>93</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="52" />
+      <option name="time" value="58" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1296,210 +1585,66 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.sorm-framework/sorm/srcs/sorm-0.3.19-sources.jar!/sorm/Instance.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/RouteConcatenation.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.2-sources.jar!/spray/json/StandardFormats.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04225352">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/scala/collection/mutable/Builder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.2-sources.jar!/spray/json/JsonFormat.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.sorm-framework/sorm/srcs/sorm-0.3.19-sources.jar!/sorm/reflection/Reflection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26760563">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.2-sources.jar!/spray/json/BasicFormats.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/directives/ExecutionDirectives.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/marshalling/Marshaller.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/Route.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.2-sources.jar!/spray/json/ProductFormats.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream-experimental_2.11/srcs/akka-stream-experimental_2.11-2.0.1-sources.jar!/akka/stream/impl/fusing/Ops.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <caret line="587" column="0" selection-start-line="587" selection-start-column="0" selection-end-line="587" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.2-sources.jar!/spray/json/JsValue.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23943663">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/marshalling/PredefinedToResponseMarshallers.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37159532">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.2-sources.jar!/spray/json/ProductFormatsInstances.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33268481">
-          <caret line="279" column="10" selection-start-line="279" selection-start-column="10" selection-end-line="279" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/ApplicationMain.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream-experimental_2.11/srcs/akka-stream-experimental_2.11-2.0.1-sources.jar!/akka/stream/impl/fusing/GraphInterpreter.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding />
+          <caret line="530" column="6" selection-start-line="530" selection-start-column="6" selection-end-line="530" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/js/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/products-compiled.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <marker date="1452238229260" expanded="true" signature="5146:5172" placeholder="{&quot;url&quot;: &quot;http://localhost:9999/products/callback&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/js/npm.js">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/vendor/react-0.14.5/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/utils/nodejs/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/app-compiled.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1392405">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/app-compiled.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/Supervisor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="9" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/pasa.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/util/ApplyConverterInstances.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.4.1-sources.jar!/akka/dispatch/BatchingExecutor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="73" selection-start-line="61" selection-start-column="73" selection-end-line="61" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/directives/FutureDirectives.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/idea.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sbt-ui.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/eclipse.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/assembly.sbt">
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
@@ -1513,192 +1658,394 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/example/PingPongActorSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/products-compiled.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/jquery-1.11.3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <caret line="9455" column="44" selection-start-line="9455" selection-start-column="44" selection-end-line="9455" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_requirejs_require.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state vertical-scroll-proportion="6.1345854">
+          <caret line="395" column="12" selection-start-line="395" selection-start-column="12" selection-end-line="395" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/public/products.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="92" selection-start-line="0" selection-start-column="92" selection-end-line="0" selection-end-column="92" />
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/TaskActor.scala">
+    <entry file="file://$PROJECT_DIR$/node_modules/require-jsx/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="-0.63776493">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <caret line="1" column="112" selection-start-line="1" selection-start-column="112" selection-end-line="1" selection-end-column="112" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        <state vertical-scroll-proportion="-0.08600337">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-with-addons.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40202704">
+          <caret line="11" column="646" selection-start-line="11" selection-start-column="646" selection-end-line="11" selection-end-column="646" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom-server.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-with-addons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02746365">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/r.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2417392">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/app-compiled.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <marker date="1452513945836" expanded="true" signature="45:119" placeholder="//..." />
+            <marker date="1452513945836" expanded="true" signature="242:1706" placeholder="{&quot;displayName&quot;: 'PASADetails'...}" />
+            <marker date="1452513945836" expanded="true" signature="333:356" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="407:880" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="424:872" placeholder="{&quot;crossDomain&quot;: true...}" />
+            <marker date="1452513945836" expanded="true" signature="640:702" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="764:850" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="931:988" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="948:981" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="1043:1316" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="1192:1240" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="1349:1704" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="1744:2233" placeholder="{&quot;displayName&quot;: 'PASALines'...}" />
+            <marker date="1452513945836" expanded="true" signature="1807:2231" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="1873:2099" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="1924:2087" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="2270:2824" placeholder="{&quot;displayName&quot;: 'PASALine'...}" />
+            <marker date="1452513945836" expanded="true" signature="2332:2822" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="2861:7119" placeholder="{&quot;displayName&quot;: 'PASAForm'...}" />
+            <marker date="1452513945836" expanded="true" signature="5185:7117" placeholder="{...}" />
+            <marker date="1452513945836" expanded="true" signature="5187:5469" placeholder="{&quot;name&quot;: 'productName'...}" />
+            <marker date="1452513945836" expanded="true" signature="5801:6112" placeholder="{&quot;name&quot;: 'taskDescription'...}" />
+            <marker date="1452513945836" expanded="true" signature="6444:6694" placeholder="{&quot;name&quot;: 'desiredDate'...}" />
+            <marker date="1452513945836" expanded="true" signature="7172:7244" placeholder="{&quot;url&quot;: 'http://localhost:9999/tasks/callback'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/react-select.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="35.75862">
+          <caret line="21096" column="13" selection-start-line="21096" selection-start-column="12" selection-end-line="21096" selection-end-column="12" />
+          <folding>
+            <marker date="1452513941777" expanded="true" signature="0:8" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="50:58" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="80:88" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="118:126" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="152:160" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="201:858" placeholder="{...}" />
+            <marker date="1452513941777" expanded="true" signature="204:212" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="246:254" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="288:296" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="344:352" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="406:414" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="459:550" placeholder="{&quot;loaded&quot;: false...}" />
+            <marker date="1452513941777" expanded="true" signature="461:469" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="486:494" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="512:520" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="538:546" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="553:561" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="595:603" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="692:700" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="732:740" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="766:774" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="813:821" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="847:855" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="861:869" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="922:930" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="966:974" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1003:1011" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1056:1064" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1093:1101" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1132:1140" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1182:1190" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1223:1231" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1235:1309" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1310:1318" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1320:735916" placeholder="[...]" />
+            <marker date="1452513941777" expanded="true" signature="1322:1329" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1330:1335" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1383:1437" placeholder="{...}" />
+            <marker date="1452513941777" expanded="true" signature="1430:1435" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1439:1446" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1447:1452" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="1500:1638" placeholder="{...}" />
+            <marker date="1452513941777" expanded="true" signature="735896:735905" placeholder="{...}" />
+            <marker date="1452513941777" expanded="true" signature="735898:735903" placeholder="/*...*/" />
+            <marker date="1452513941777" expanded="true" signature="735906:735914" placeholder="/*...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/task/DataMgmt.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <caret line="215" column="6" selection-start-line="215" selection-start-column="6" selection-end-line="215" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/vendor/jquery-1.11.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4610895">
-          <caret line="9536" column="4" selection-start-line="9536" selection-start-column="4" selection-end-line="9536" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core-experimental_2.11/srcs/akka-http-core-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/util/FastFuture.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/Supervisor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/RouteConcatenation.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/TaskActor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <folding>
+            <element signature="e#18#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/ApplicationMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6148036">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/scala/util/Properties.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23111783">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1336478">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/directives/BasicDirectives.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/directives/ExecutionDirectives.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/Route.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream-experimental_2.11/srcs/akka-stream-experimental_2.11-2.0.1-sources.jar!/akka/stream/impl/fusing/Ops.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="587" column="0" selection-start-line="587" selection-start-column="0" selection-end-line="587" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream-experimental_2.11/srcs/akka-stream-experimental_2.11-2.0.1-sources.jar!/akka/stream/impl/fusing/GraphInterpreter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="530" column="6" selection-start-line="530" selection-start-column="6" selection-end-line="530" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/products-compiled.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.068966">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding>
-            <marker date="1452161071147" expanded="true" signature="54:1421" placeholder="{&quot;displayName&quot;: &quot;ProductDetails&quot;...}" />
-            <marker date="1452161071147" expanded="true" signature="148:171" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="227:769" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="244:761" placeholder="{&quot;crossDomain&quot;: true...}" />
-            <marker date="1452161071147" expanded="true" signature="529:591" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="653:739" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="819:855" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="909:1022" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="1054:1419" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="1462:1871" placeholder="{&quot;displayName&quot;: &quot;ProductLines&quot;...}" />
-            <marker date="1452161071147" expanded="true" signature="1528:1869" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="1600:1734" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="1911:2205" placeholder="{&quot;displayName&quot;: &quot;ProductLine&quot;...}" />
-            <marker date="1452161071147" expanded="true" signature="1976:2203" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="2245:4910" placeholder="{&quot;displayName&quot;: &quot;ProductForm&quot;...}" />
-            <marker date="1452161071147" expanded="true" signature="2329:2734" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="2417:2708" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="2449:2628" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="2491:2561" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="2634:2698" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="2780:3606" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="3005:3505" placeholder="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1452161071147" expanded="true" signature="3273:3342" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="3404:3483" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="3639:4908" placeholder="{...}" />
-            <marker date="1452161071147" expanded="true" signature="4433:4586" placeholder="{&quot;name&quot;: &quot;productName&quot;...}" />
-            <marker date="1452161071147" expanded="true" signature="4966:5041" placeholder="{&quot;url&quot;: &quot;http://localhost:9999/products/callback&quot;...}" />
-          </folding>
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/Directive.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07392996">
-          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/javascripts/products.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.724138">
-          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/server/directives/FutureDirectives.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35132033">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core-experimental_2.11/srcs/akka-http-core-experimental_2.11-2.0.1-sources.jar!/akka/http/scaladsl/util/FastFuture.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33268481">
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.2-sources.jar!/spray/json/JsonParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="51" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#620#661#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/1.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02312925">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.2-sources.jar!/spray/json/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6938776">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.793103">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3213727">
+          <caret line="445" column="75" selection-start-line="445" selection-start-column="75" selection-end-line="445" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/webcomponents/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3512195">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
-          <folding>
-            <element signature="e#20#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.676311">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.083333336">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1789,6 +2136,21 @@
               </list>
             </option>
           </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Asset JSXs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Asset JSXs" />
+          </order>
         </settings>
       </state>
     </states>

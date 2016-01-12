@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
 var ProductDetails = React.createClass({
-    displayName: "ProductDetails",
+    displayName: 'ProductDetails',
 
     returnJasonCallback: function returnJasonCallback() {
         return;
@@ -14,11 +14,12 @@ var ProductDetails = React.createClass({
             url: this.props.url,
             dataType: 'json',
             cache: false,
-            //            jsonpCallback: this.returnJasonCallback(),
             success: (function (data) {
-                this.setState({ data: data });
+                this.setState({ data: data, lastErr: '' });
             }).bind(this),
             error: (function (xhr, status, err) {
+                console.info(status.toString());
+                this.setState({ lastErr: status.toString() + ' ' + err.toString() });
                 console.error(this.props.url, status, err.toString());
             }).bind(this)
         });
@@ -31,13 +32,27 @@ var ProductDetails = React.createClass({
         setInterval(this.loadProductDetails, this.props.pollInterval);
     },
     render: function render() {
+
+        var errShow = this.state.lastErr ? this.state.lastErr.length > 0 ? { display: 'block' } : { display: 'none' } : { display: 'none' };
         return React.createElement(
-            "div",
-            { className: "container" },
+            'div',
+            { className: 'container' },
             React.createElement(
-                "h1",
+                'h1',
                 null,
-                "Products Details"
+                'Products Details'
+            ),
+            React.createElement(
+                'div',
+                { id: 'myAlert', className: 'alert alert-warning',
+                    style: errShow },
+                React.createElement(
+                    'span',
+                    { className: 'sr-only' },
+                    'Error:'
+                ),
+                'Seems we have an error, Jo. And the browser reports this -> ',
+                this.state.lastErr
             ),
             React.createElement(ProductForm, null),
             React.createElement(ProductLines, { data: this.state.data })
@@ -46,7 +61,7 @@ var ProductDetails = React.createClass({
 });
 
 var ProductLines = React.createClass({
-    displayName: "ProductLines",
+    displayName: 'ProductLines',
 
     render: function render() {
         var ProductNodes = this.props.data.map(function (productline) {
@@ -54,22 +69,22 @@ var ProductLines = React.createClass({
         });
 
         return React.createElement(
-            "div",
-            { className: "well" },
+            'div',
+            { className: 'well' },
             ProductNodes
         );
     }
 });
 
 var ProductLine = React.createClass({
-    displayName: "ProductLine",
+    displayName: 'ProductLine',
 
     render: function render() {
         return React.createElement(
-            "blockquote",
+            'blockquote',
             null,
             React.createElement(
-                "p",
+                'p',
                 null,
                 this.props.ProductName
             )
@@ -78,23 +93,7 @@ var ProductLine = React.createClass({
 });
 
 var ProductForm = React.createClass({
-    displayName: "ProductForm",
-
-    serializeObject: function serializeObject(f) {
-        var o = {};
-        var a = f.serializeArray();
-        $.each(a, function () {
-            if (o[this.name]) {
-                if (!o[this.name].push) {
-                    o[this.name] = [o[this.name]];
-                }
-                o[this.name].push(this.value || '');
-            } else {
-                o[this.name] = this.value || '';
-            }
-        });
-        return o;
-    },
+    displayName: 'ProductForm',
 
     handleSubmit: function handleSubmit(e) {
         e.preventDefault();
@@ -122,44 +121,42 @@ var ProductForm = React.createClass({
         });
 
         // clears the form fields
-        this.refs.productName.value = '';
+
+        this.findDOMNode(this.refs.productName).value = '';
         return;
     },
 
     render: function render() {
-        var _this = this;
-
         return React.createElement(
-            "div",
-            { className: "row" },
+            'div',
+            { className: 'row' },
             React.createElement(
-                "form",
-                { id: "ProductForm", onSubmit: this.handleSubmit },
+                'form',
+                { id: 'ProductForm', onSubmit: this.handleSubmit },
                 React.createElement(
-                    "div",
-                    { className: "col-xs-3" },
+                    'div',
+                    { className: 'col-xs-3' },
                     React.createElement(
-                        "div",
-                        { className: "form-group" },
-                        React.createElement("input", { type: "hidden", name: "productId", value: "0" }),
-                        React.createElement("input", { type: "text", name: "productName", ref: function ref(_ref) {
-                                return _this.productName = _ref;
-                            }, required: "required", ref: "type",
-                            placeholder: "Add product name",
-                            className: "form-control" })
+                        'div',
+                        { className: 'form-group' },
+                        React.createElement('input', { type: 'hidden', name: 'productId', value: '0' }),
+                        React.createElement('input', { type: 'text', name: 'productName', ref: 'productName',
+                            required: 'required', ref: 'type',
+                            placeholder: 'Add product name',
+                            className: 'form-control' })
                     )
                 ),
                 React.createElement(
-                    "div",
-                    { className: "col-xs-3" },
-                    React.createElement("input", { type: "submit", className: "btn btn-block btn-info", value: "Add" })
+                    'div',
+                    { className: 'col-xs-3' },
+                    React.createElement('input', { type: 'submit', className: 'btn btn-block btn-info', value: 'Add' })
                 )
             )
         );
     }
 });
 
-ReactDOM.render(React.createElement(ProductDetails, { url: "http://localhost:9999/products/callback",
-    pollInterval: 20000 }), document.getElementById('content'));
+ReactDOM.render(React.createElement(ProductDetails, { url: 'http://localhost:9999/products/callback',
+    pollInterval: 2000 }), document.getElementById('content'));
 
 //# sourceMappingURL=products-compiled.js.map

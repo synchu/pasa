@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for pasa-planning-automation-software-agents#pasa-planning-automation-software-agents_2.11;1.0 [compile]
 [debug] == resolving dependencies pasa-planning-automation-software-agents#pasa-planning-automation-software-agents_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72a50579
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64d6b11d
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
 [debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
 [debug] == resolving dependencies pasa-planning-automation-software-agents#pasa-planning-automation-software-agents_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [compile->runtime]
@@ -3178,7 +3178,7 @@
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.1!akka-testkit_2.11.jar
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 6696ms :: artifacts dl 35ms
+[debug] :: resolution report :: resolve 5308ms :: artifacts dl 98ms
 [debug] 	report for pasa-planning-automation-software-agents#pasa-planning-automation-software-agents_2.11;1.0 compile produced in C:\Users\nnyagolov\PASA3\target\resolution-cache\reports\pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-compile.xml
 [debug] 	report for pasa-planning-automation-software-agents#pasa-planning-automation-software-agents_2.11;1.0 runtime produced in C:\Users\nnyagolov\PASA3\target\resolution-cache\reports\pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-runtime.xml
 [debug] 	report for pasa-planning-automation-software-agents#pasa-planning-automation-software-agents_2.11;1.0 test produced in C:\Users\nnyagolov\PASA3\target\resolution-cache\reports\pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-test.xml
@@ -3192,7 +3192,7 @@
 [debug] 	report for pasa-planning-automation-software-agents#pasa-planning-automation-software-agents_2.11;1.0 docs produced in C:\Users\nnyagolov\PASA3\target\resolution-cache\reports\pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-docs.xml
 [debug] 	report for pasa-planning-automation-software-agents#pasa-planning-automation-software-agents_2.11;1.0 pom produced in C:\Users\nnyagolov\PASA3\target\resolution-cache\reports\pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-pom.xml
 [debug] 	report for pasa-planning-automation-software-agents#pasa-planning-automation-software-agents_2.11;1.0 scala-tool produced in C:\Users\nnyagolov\PASA3\target\resolution-cache\reports\pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-scala-tool.xml
-[debug] 	resolve done (6696ms resolve - 35ms download)
+[debug] 	resolve done (5308ms resolve - 98ms download)
 [info] Done updating.
 [warn] There may be incompatibilities among your library dependencies.
 [warn] Here are some of the libraries that were evicted:

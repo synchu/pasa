@@ -10,12 +10,14 @@ var ProductDetails = React.createClass({
             url: this.props.url,
             dataType: 'json',
             cache: false,
-//            jsonpCallback: this.returnJasonCallback(),
             success: function (data) {
-                this.setState({data: data});
+                this.setState({data: data, lastErr:''});
             }.bind(this),
             error: function (xhr, status, err) {
+                console.info(status.toString())
+                this.setState({lastErr: status.toString() + ' ' + err.toString()})
                 console.error(this.props.url, status, err.toString());
+
             }.bind(this)
         });
 
@@ -28,12 +30,20 @@ var ProductDetails = React.createClass({
         setInterval(this.loadProductDetails, this.props.pollInterval);
     },
     render: function () {
+
+        var errShow = this.state.lastErr ? this.state.lastErr.length > 0 ? {display:'block'} : {display:'none'} : {display:'none'};
         return (
             <div className="container">
                 <h1>Products Details</h1>
+
+                <div id="myAlert" className="alert alert-warning"
+                     style={errShow}>
+                    <span className="sr-only">Error:</span>
+                    Seems we have an error, Jo. And the browser reports this -> {this.state.lastErr}
+                </div>
+
                 <ProductForm />
                 <ProductLines data={this.state.data}/>
-
             </div>
         );
     }
@@ -68,21 +78,6 @@ var ProductLine = React.createClass({
 
 var ProductForm = React.createClass({
 
-        serializeObject: function (f) {
-            var o = {};
-            var a = f.serializeArray();
-            $.each(a, function () {
-                if (o[this.name]) {
-                    if (!o[this.name].push) {
-                        o[this.name] = [o[this.name]];
-                    }
-                    o[this.name].push(this.value || '');
-                } else {
-                    o[this.name] = this.value || '';
-                }
-            });
-            return o;
-        },
 
         handleSubmit: function (e) {
             e.preventDefault();
@@ -111,7 +106,9 @@ var ProductForm = React.createClass({
             });
 
             // clears the form fields
-            this.refs.productName.value = '';
+
+
+            this.findDOMNode(this.refs.productName).value = '';
             return;
         }
         ,
@@ -122,7 +119,8 @@ var ProductForm = React.createClass({
                         <div className="col-xs-3">
                             <div className="form-group">
                                 <input type="hidden" name="productId" value="0"/>
-                                <input type="text" name="productName" ref={(ref) => this.productName = ref} required="required" ref="type"
+                                <input type="text" name="productName" ref="productName"
+                                       required="required" ref="type"
                                        placeholder="Add product name"
                                        className="form-control"/>
                             </div>
@@ -138,4 +136,4 @@ var ProductForm = React.createClass({
     ;
 
 ReactDOM.render(<ProductDetails url="http://localhost:9999/products/callback"
-                                pollInterval={20000}/>, document.getElementById('content'));
+                                pollInterval={2000}/>, document.getElementById('content'));

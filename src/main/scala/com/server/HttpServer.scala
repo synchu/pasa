@@ -8,7 +8,7 @@ import akka.http.scaladsl.marshalling.ToResponseMarshallable.apply
 import akka.http.scaladsl.model.StatusCodes._
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
-import akka.http.scaladsl.unmarshalling.Unmarshal
+import akka.http.scaladsl.unmarshalling.{Unmarshaller, Unmarshal}
 import akka.pattern.ask
 import akka.stream.{ActorMaterializer, Materializer}
 import akka.util.{ByteString, Timeout}
@@ -22,7 +22,7 @@ import DefaultJsonProtocol._
 import scala.collection.mutable.ListBuffer
 import scala.concurrent.duration._
 import scala.concurrent.{ExecutionContextExecutor, Future}
-import scala.util.Failure
+import scala.util.{Properties, Failure}
 
 /**
   * Created by nnyagolov on 2/1/2016.
@@ -60,6 +60,13 @@ trait Protocols extends DefaultJsonProtocol with SprayJsonSupport {
   implicit val productsDataFormat = jsonFormat2(Products.apply)
   implicit val tasksDataFormat = jsonFormat10(TaskDef.apply)
 
+  implicit val um:Unmarshaller[HttpEntity, JsObject] = {
+    Unmarshaller.byteStringUnmarshaller.mapWithCharset { (data, charset) =>
+      data.toString().parseJson.asJsObject
+      //JsonParser.parse(data.toArray).as[JsObject]
+    }
+  }
+
 }
 
 trait Service extends Protocols {
@@ -94,7 +101,20 @@ trait Service extends Protocols {
               }
             }
           }
-        }
+        } ~
+          (post & path("save")) {
+            formFields('taskDescription, 'productName) {
+              (taskDescription, productName) => {
+                val ref = "["+productName.trim+"]\n".parseJson
+                val product: Products = productName.parseJson.asJsObject.convertTo[Products]
+                ApplicationMain.addNewTask(product, taskDescription)
+                complete(HttpResponse(OK)
+                  .withHeaders(akka.http.scaladsl.model.headers.`Access-Control-Allow-Origin`.*))
+              }
+
+            }
+
+          }
       } ~
         path("stop") {
           get {
@@ -117,17 +137,16 @@ trait Service extends Protocols {
             }
           } ~
             (post & path("save")) {
-              /*entity(as[String]) {
-                newProduct =>
-                  logger.info(newProduct.toJson.toString)
-                  complete(HttpResponse(OK))
-                */
               formFields('productName) { (productName) => {
                 val saved = DataMgmt.saveNewProduct(Products(0, productName))
-                complete(HttpResponse(OK)
-                  .withHeaders(akka.http.scaladsl.model.headers.`Access-Control-Allow-Origin`.*)
-                  .withEntity(HttpEntity.Strict(MediaTypes.`application/json`, data = ByteString.fromString("done")))
-                )
+                onComplete(saved) {
+                  case scala.util.Success(newProductCreated: Products) => complete(HttpResponse(OK)
+                    .withHeaders(akka.http.scaladsl.model.headers.`Access-Control-Allow-Origin`.*)
+                    .withEntity(HttpEntity.Strict(MediaTypes.`application/json`,
+                      data = ByteString.fromString(Products(newProductCreated.productId, newProductCreated.productName).toJson.toString())))
+                  )
+                  case scala.util.Failure(errorMessage) => complete(BadRequest -> s"Could not create new product for the following reason $errorMessage")
+                }
               }
 
               }
@@ -178,5 +197,7 @@ object HttpServer extends Service {
   override val config = ConfigFactory.load()
   override val logger = Logging(system, getClass)
 
-  Http().bindAndHandle(routes, config.getString("http.interface"), config.getInt("http.port"))
+  val myPort = Properties.envOrElse("PORT", config.getInt("http.port").toString).toInt
+
+  Http().bindAndHandle(routes, config.getString("http.interface"), myPort)
 }
