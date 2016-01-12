@@ -1,152 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18215595-1647-48a4-b5ce-60e6c2aeb182" name="Default" comment="Add task adding features">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/DoJo_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/NodeJSCoreModules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/react_dom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/react_select.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/require.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/react-select.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$15$$anonfun$apply$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$9$$anonfun$apply$10$$anonfun$apply$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$9$$anonfun$apply$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$9.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/bootstrap-3.3.6-dist/js/npm.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/bootstrap-3.3.6-dist/js/npm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/jquery-1.11.3.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/jquery-1.11.3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/README.md" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-dom-server.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom-server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-dom-server.min.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom-server.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-dom.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-dom.min.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-dom.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-with-addons.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-with-addons.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react-with-addons.min.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react-with-addons.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/build/react.min.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/build/react.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/README.md" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-click-counter/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-click-counter/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-commonjs/README.md" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-commonjs/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-commonjs/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-commonjs/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-commonjs/index.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-commonjs/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-commonjs/package.json" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-commonjs/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx-external/example.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx-precompile/example.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx-external/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx-external/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx-harmony/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx-harmony/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx-precompile/example.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx-external/example.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx-precompile/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx-precompile/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic-jsx/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic-jsx/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/basic/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/basic/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-bootstrap/css/example.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-bootstrap/css/example.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-bootstrap/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-bootstrap/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-bootstrap/js/app.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-bootstrap/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-mobile/README.md" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-mobile/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-mobile/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-mobile/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/jquery-mobile/js/app.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/jquery-mobile/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/quadratic/example.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/quadratic/example.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/quadratic/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/quadratic/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/shared/css/base.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/shared/css/base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/shared/thirdparty/webcomponents.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/shared/thirdparty/webcomponents.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/transitions/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/transitions/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/transitions/transition.css" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/transitions/transition.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/vendor/react-0.14.5/examples/webcomponents/index.html" afterPath="$PROJECT_DIR$/src/assets/javascripts/vendor/react-0.14.5/examples/webcomponents/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/ApplicationMain$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/ApplicationMain$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/ApplicationMain.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/main/ApplicationMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/HttpServer$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/HttpServer$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/HttpServer.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/HttpServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Protocols.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6$$anonfun$apply$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6$$anonfun$apply$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4$$anonfun$apply$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12$$anonfun$apply$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1$$anonfun$apply$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$$anonfun$routes$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/server/Service.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Products$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Products$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Products.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/task/Products.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+    <list default="true" id="18215595-1647-48a4-b5ce-60e6c2aeb182" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/pasa3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/pasa3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/pasa3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/pasa3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-pasa3-build-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/products.html" afterPath="$PROJECT_DIR$/public/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/app-compiled.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/app-compiled.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/app-compiled.js.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/app-compiled.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/app.jsx" afterPath="$PROJECT_DIR$/src/assets/javascripts/app.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/products-compiled.js" afterPath="$PROJECT_DIR$/src/assets/javascripts/products-compiled.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/products-compiled.js.map" afterPath="$PROJECT_DIR$/src/assets/javascripts/products-compiled.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/javascripts/products.jsx" afterPath="$PROJECT_DIR$/src/assets/javascripts/products.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/main/ApplicationMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/main/ApplicationMain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/pasa-planning-automation-software-agents/pasa-planning-automation-software-agents_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/pasa-planning-automation-software-agents/pasa-planning-automation-software-agents_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/pasa-planning-automation-software-agents/pasa-planning-automation-software-agents_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/pasa-planning-automation-software-agents/pasa-planning-automation-software-agents_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/pasa-planning-automation-software-agents-pasa-planning-automation-software-agents_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
     </list>
     <ignored path="PASA - Planning Automation Software Agents.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -247,8 +105,8 @@
       <file leaf-file-name="HttpServer.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.083333336">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6666667">
+              <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -1385,7 +1243,7 @@
       <workItem from="1452265976467" duration="4276000" />
       <workItem from="1452366279697" duration="11322000" />
       <workItem from="1452437173561" duration="12250000" />
-      <workItem from="1452528596680" duration="3943000" />
+      <workItem from="1452528596680" duration="5197000" />
     </task>
     <task id="LOCAL-00001" summary="htmls">
       <created>1452086367809</created>
@@ -1429,11 +1287,17 @@
       <option name="project" value="LOCAL" />
       <updated>1452172301473</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add task adding features">
+      <created>1452584624262</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1452584624262</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257364000" />
+    <option name="totallyTimeSpent" value="258618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2044,8 +1908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/server/HttpServer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.083333336">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6666667">
+          <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
           <folding />
         </state>
       </provider>
